@@ -1,0 +1,160 @@
+
+@media (max-width: 1600px) {
+   
+}
+@media (max-width: 1440px) {
+
+  
+}
+
+@media (min-width: 1400px) {
+  
+}
+@media (max-width: 1366px) {
+  
+}
+
+
+@media (max-width: 1280px) {
+   
+}
+
+@media (max-width: 1200px) {
+   
+ 
+}
+
+@media (max-width: 1200px) and (min-width: 1025px){
+    
+}
+@media (max-width: 1200px) {
+   
+}
+@media (min-width: 1200px) {
+   
+}
+
+@media (max-width: 1170px) {
+  
+}
+
+@media (max-width: 1024px) {
+
+   
+}
+
+@media (max-width: 1023px) {
+  
+}
+
+@media (max-width: 992px) {
+   
+}
+
+@media (min-width: 992px) {
+  
+
+}
+
+@media (max-width: 767px) {
+
+
+}
+
+
+@media (max-width: 959px) and (min-width: 768px) {
+  
+
+}
+
+@media (max-width: 768px) {
+   
+}
+
+
+@media (max-width: 667px) and (min-width: 601px) {
+  
+  
+}
+@media (max-width: 767px) and (min-width: 568px) {
+  
+   
+}
+
+@media (max-width: 767px) {
+	.flash_sale{
+		width:100%;
+	}
+
+	.flash_sale a {
+		width: 50%;
+	}
+
+	.flash_sale a.a-seller {
+		margin: 0;
+		width: 50%;
+		text-align: center;
+	}
+
+	.serach_header {
+		margin: 0 !important;
+	}
+
+	.navbar-light .navbar-toggler{
+		margin-top: -50px;
+	}
+
+	.login_b {
+		float: right;
+		margin: 8px 0 0 15px;
+	}
+
+	.slider_main .carousel-item {
+		height: auto;
+	}
+
+	.p-0 , .pl-0, .pr-0 {
+		padding-right: 15px !important;
+		padding-left: 15px !important;
+	}
+
+	.login_user{
+		display: none;
+	}
+
+	.box_profile_menu {
+		margin: 20px 0 0 -30px;
+	}
+
+}
+
+@media (max-width: 667px) {
+   
+}
+
+@media (max-width: 600px) {
+
+}
+
+@media (max-width: 568px) {
+   
+}
+
+@media (max-width: 480px) {
+  
+}
+
+@media (max-width: 414px) {
+  
+}
+
+@media (max-width: 375px) {
+  
+}
+
+
+@media (max-width: 320px) {
+ 
+}
+
+

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+	<meta name="robots" content="" />
+	<meta name="description" content="" />
+	<meta property="og:title" content="" />
+	<meta property="og:description" content="" />
+	<meta property="og:image" content="social-image.png" />
+	<meta name="format-detection" content="telephone=no">
+	<link rel="icon" href="images/favicon.png" type="image/x-icon" />
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+	<title>Codester Freelancer_36_Analytics</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/themify/themify-icons.css">
+
+	
+</head>
+
+
+
+<body>
+
+
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-2 col-md-3 text-center  mr-auto">
+				<div class="logo">
+					<img src="images/logo.jpg" alt="" title="">
+				</div>
+			</div>
+
+
+
+
+
+			<div class="col-lg-3 col-md-6 mt-2">
+				<div class="serach_header float-right mr-3 w-100">
+					<div class="input-group mb-3">
+						<input type="text" class="form-control" placeholder="Keywords .." aria-label="Recipient's username" aria-describedby="button-addon2">
+						<div class="input-group-append">
+							<button class="btn btn-outline-secondary color-1" type="button" id="button-addon2"><i class="fa fa-search" aria-hidden="true"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-6 mt-2">
+
+				<div class="in_profile">
+					<div class="dropdown">
+						<a class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							 <img src="images/about_home-1.jpg"> Name User
+						</a>
+						<div class="dropdown-menu box_profile_menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#"> <i class="fa fa-user"></i> My Profile</a>
+							<a class="dropdown-item" href="#"> <i class="fa fa-file-text-o" aria-hidden="true"></i> My Biddings </a>
+							<a class="dropdown-item" href="#"> <i class="fa fa-cogs" aria-hidden="true"></i> Settings </a>
+							<a class="dropdown-item" href="#"> <i class="fa fa-sign-out" aria-hidden="true"></i> log Out </a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-lg-12 col-md-12">
+				<div class="main_menu">
+					<nav class="navbar navbar-expand-lg navbar-light p-0">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+							<ul class="navbar-nav">
+								<li><a class="nav-item nav-link active" href="#"> dashboard </a></li>
+								<li><a class="nav-item nav-link" href="#">message</a></li>
+								<li><a class="nav-item nav-link" href="#">orders</a></li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Services
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="#">My Services</a>
+										<a class="dropdown-item" href="#">Upload a services</a>
+									</div>
+								</li>
+								<li><a class="nav-item nav-link" href="#">my jobs / requirments</a></li>
+								<li><a class="nav-item nav-link" href="#">analytics</a></li>
+
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</header>
+
+
+
+<div class="container mt-5">
+	<div class="row">
+
+		<div class="col-md-12 mb-5">
+			<div id="chart"></div>
+		</div>
+
+		<div class="col-md-6 col-lg-12">
+			<div class="row">
+				<div class="col-md-6 col-lg-4">
+					<div class="block_total_nu linear-gradient-1">
+						<strong>50</strong>
+						<p>Total Projects Created</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="block_total_nu linear-gradient-2">
+						<strong>299</strong>
+						<p>Total ongoing order</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="block_total_nu linear-gradient-3">
+						<strong>499.50$</strong>
+						<p>Total earnings</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="block_total_nu linear-gradient-4">
+						<strong>30</strong>
+						<p>Total delivered orders</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="block_total_nu linear-gradient-5">
+						<strong>30</strong>
+						<p>Total delivered orders</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="block_total_nu linear-gradient-6">
+						<strong>30</strong>
+						<p>Total delivered orders</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="block_total_nu linear-gradient-7">
+						<strong>30</strong>
+						<p>Total delivered orders</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-12">
+			<div class="content_man_req p-4">
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="table-responsive">
+							<table class="table bg-white">
+								<thead>
+								<tr>
+									<th scope="col" colspan="3">Categories Offered</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+									<td>Graphic Designer</td>
+									<td>Digital Marketing</td>
+									<td>Themes</td>
+								</tr>
+								<tr>
+									<td>Graphic Designer</td>
+									<td>Digital Marketing</td>
+									<td>Themes</td>
+								</tr>
+								<tr>
+									<td>Graphic Designer</td>
+									<td>Digital Marketing</td>
+									<td>Themes</td>
+								</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="table-responsive">
+							<table class="table bg-white">
+								<thead>
+									<tr>
+										<th scope="col" colspan="3">Best Project</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Logo Design</td>
+										<td><b>+50 Download</b></td>
+										<td><a href="#" class="btn_post p-0 m-0"> View  </a></td>
+									</tr>
+									<tr>
+										<td>Logo Design</td>
+										<td><b>+50 Download</b></td>
+										<td><a href="#" class="btn_post p-0 m-0"> View  </a></td>
+									</tr>
+									<tr>
+										<td>Logo Design</td>
+										<td><b>+50 Download</b></td>
+										<td><a href="#" class="btn_post p-0 m-0"> View  </a></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div  class="col-md-3">
+				<div class="block_social_footer">
+					<h3 class="tit-main-footer">Follow Us</h3>
+					<a href="#"> <i class="fa fa-facebook"></i> </a>
+					<a href="#"> <i class="fa fa-twitter"></i> </a>
+					<a href="#"> <i class="fa fa-instagram"></i> </a>
+				</div>
+			</div>
+			<div  class="col-md-3">
+				<h3 class="tit-main-footer">Popular Assets</h3>
+				<div class="menu_footer">
+					<a href="#">Script & Codes</a>
+					<a href="#">app templates</a>
+					<a href="#">theme</a>
+					<a href="#">plugin</a>
+					<a href="#">graphics</a>
+				</div>
+			</div>
+			<div  class="col-md-3">
+				<h3 class="tit-main-footer">More Info</h3>
+				<div class="menu_footer">
+					<a href="#">Script & Codes</a>
+					<a href="#">app templates</a>
+					<a href="#">theme</a>
+					<a href="#">plugin</a>
+					<a href="#">graphics</a>
+				</div>
+			</div>
+			<div  class="col-md-3">
+				<h3 class="tit-main-footer">Help & Support</h3>
+				<div class="menu_footer">
+					<a href="#">Script & Codes</a>
+					<a href="#">app templates</a>
+					<a href="#">theme</a>
+					<a href="#">plugin</a>
+					<a href="#">graphics</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="copyright text-center">
+		Copyright @2020 ahmed.All Rights reserved
+	</div>
+
+</footer>
+
+
+
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-select.min.js"></script>
+
+<script src="js/owl.carousel.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/wow.js"></script>
+
+
+<script>
+    window.Promise ||
+    document.write(
+        '<script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"><\/script>'
+    )
+    window.Promise ||
+    document.write(
+        '<script src="https://cdn.jsdelivr.net/npm/eligrey-classlist-js-polyfill@1.2.20171210/classList.min.js"><\/script>'
+    )
+    window.Promise ||
+    document.write(
+        '<script src="https://cdn.jsdelivr.net/npm/findindex_polyfill_mdn"><\/script>'
+    )
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script>
+
+    var options = {
+        series: [{
+            name: 'Likes',
+            data: [4, 3, 10, 9, 29, 19, 22, 9, 12, 7, 19, 5, 13, 9, 17, 2, 7, 5]
+        }],
+        chart: {
+            height: 350,
+            type: 'line',
+        },
+        stroke: {
+            width: 7,
+            curve: 'smooth'
+        },
+        xaxis: {
+            type: 'datetime',
+            categories: ['1/11/2000', '2/11/2000', '3/11/2000', '4/11/2000', '5/11/2000', '6/11/2000', '7/11/2000', '8/11/2000', '9/11/2000', '10/11/2000', '11/11/2000', '12/11/2000', '1/11/2001', '2/11/2001', '3/11/2001','4/11/2001' ,'5/11/2001' ,'6/11/2001'],
+            tickAmount: 10,
+            labels: {
+                formatter: function(value, timestamp, opts) {
+                    return opts.dateFormatter(new Date(timestamp), 'dd MMM')
+                }
+            }
+        },
+        title: {
+            text: 'Total Busines Earning',
+            align: 'left',
+            style: {
+                fontSize: "16px",
+                color: '#666'
+            }
+        },
+        fill: {
+            type: 'gradient',
+            gradient: {
+                shade: 'dark',
+                gradientToColors: [ '#FDD835'],
+                shadeIntensity: 1,
+                type: 'horizontal',
+                opacityFrom: 1,
+                opacityTo: 1,
+                stops: [0, 100, 100, 100]
+            },
+        },
+        markers: {
+            size: 4,
+            colors: ["#FFA41B"],
+            strokeColors: "#fff",
+            strokeWidth: 2,
+            hover: {
+                size: 7,
+            }
+        },
+        yaxis: {
+            min: -10,
+            max: 40,
+            title: {
+                text: 'Engagement',
+            },
+        }
+    };
+
+    var chart = new ApexCharts(document.querySelector("#chart"), options);
+    chart.render();
+
+
+</script>
+
+
+</body>
+</html>

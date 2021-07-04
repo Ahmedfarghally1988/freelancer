@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+	<meta name="robots" content="" />
+	<meta name="description" content="" />
+	<meta property="og:title" content="" />
+	<meta property="og:description" content="" />
+	<meta property="og:image" content="social-image.png" />
+	<meta name="format-detection" content="telephone=no">
+	<link rel="icon" href="images/favicon.png" type="image/x-icon" />
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+	<title>Codester Freelancer_33_Orders(Previous)</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/themify/themify-icons.css">
+
+	
+</head>
+
+
+
+<body>
+
+
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-2 col-md-3 text-center  mr-auto">
+				<div class="logo">
+					<img src="images/logo.jpg" alt="" title="">
+				</div>
+			</div>
+
+
+
+
+
+			<div class="col-lg-3 col-md-6 mt-2">
+				<div class="serach_header float-right mr-3 w-100">
+					<div class="input-group mb-3">
+						<input type="text" class="form-control" placeholder="Keywords .." aria-label="Recipient's username" aria-describedby="button-addon2">
+						<div class="input-group-append">
+							<button class="btn btn-outline-secondary color-1" type="button" id="button-addon2"><i class="fa fa-search" aria-hidden="true"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-6 mt-2">
+
+				<div class="in_profile">
+					<div class="dropdown">
+						<a class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							 <img src="images/about_home-1.jpg"> Name User
+						</a>
+						<div class="dropdown-menu box_profile_menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#"> <i class="fa fa-user"></i> My Profile</a>
+							<a class="dropdown-item" href="#"> <i class="fa fa-file-text-o" aria-hidden="true"></i> My Biddings </a>
+							<a class="dropdown-item" href="#"> <i class="fa fa-cogs" aria-hidden="true"></i> Settings </a>
+							<a class="dropdown-item" href="#"> <i class="fa fa-sign-out" aria-hidden="true"></i> log Out </a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-lg-12 col-md-12">
+				<div class="main_menu">
+					<nav class="navbar navbar-expand-lg navbar-light p-0">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+							<ul class="navbar-nav">
+								<li><a class="nav-item nav-link active" href="#"> dashboard </a></li>
+								<li><a class="nav-item nav-link" href="#">message</a></li>
+								<li><a class="nav-item nav-link" href="#">orders</a></li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Services
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="#">My Services</a>
+										<a class="dropdown-item" href="#">Upload a services</a>
+									</div>
+								</li>
+								<li><a class="nav-item nav-link" href="#">my jobs / requirments</a></li>
+								<li><a class="nav-item nav-link" href="#">analytics</a></li>
+
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</header>
+
+
+<div class="modal fade" id="exampleModal-212" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Select Reson For Cancellation ?</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<form>
+					<div class="form-group">
+						<div class="form-check mt-2">
+							<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+							<label class="form-check-label" for="exampleRadios1">
+								Lorem Ipsum is simply dummy text
+							</label>
+						</div>
+						<div class="form-check mt-2">
+							<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+							<label class="form-check-label" for="exampleRadios2">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry
+							</label>
+						</div>
+						<div class="form-check mt-2">
+							<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+							<label class="form-check-label" for="exampleRadios3">
+								Lorem Ipsum is simply dummy text of the printing and
+							</label>
+						</div>
+						<div class="form-check mt-2">
+							<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+							<label class="form-check-label" for="exampleRadios4">
+								Other
+							</label>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+					</div>
+
+					<div class="form-group">
+						<button type="button" class="btn btn-success w-50">Submit</button>
+					</div>
+
+				</form>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+<div class="container mt-5">
+	<div class="row">
+
+
+		<div class="col-md-12">
+			<div class="content_man_req p-4">
+
+				<div class="row">
+
+					<div class="col-md-3">
+						<h3 class="tit_services mt-0"> My Orders </h3>
+					</div>
+
+					<div class="col-md-3 mb-3 ml-auto">
+						<a href="#" class="alert_no"> Ongoing </a>
+						<a href="#" class="alert_yes"> Previous </a>
+					</div>
+
+					<div class="col-md-12">
+						<div class=" table-responsive">
+							<table class="table bg-white table_main_dashboard">
+								<thead class="bg-gray">
+								<tr>
+									<th scope="col">Order Id</th>
+									<th scope="col">Order Started On</th>
+									<th scope="col">Order Ends On</th>
+									<th scope="col">Username</th>
+									<th scope="col">Project Description</th>
+									<th scope="col">Budget</th>
+									<th scope="col">Rating</th>
+									<th scope="col">Review</th>
+									<th scope="col">Status</th>
+								</tr>
+								</thead>
+								<tbody>
+
+								<tr>
+									<td>#GT51232</td>
+									<td>11-2-2020</td>
+									<td>15-2-2020</td>
+									<td>Indrajeet</td>
+									<td>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+									</td>
+									<td> $522 </td>
+									<td>
+										<span class="star_table">
+											<i class="fa fa-star"></i>
+											5
+										</span>
+									</td>
+									<td>
+										<p> Lorem Ipsum is simply dummy text </p>
+									</td>
+									<td>
+										<strong class="Completed_order">Completed</strong>
+									</td>
+								</tr>
+								<tr>
+									<td>#GT51232</td>
+									<td>11-2-2020</td>
+									<td>15-2-2020</td>
+									<td>Indrajeet</td>
+									<td>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+									</td>
+									<td> $522 </td>
+									<td>
+										<span class="star_table">
+											<i class="fa fa-star"></i>
+											3
+										</span>
+									</td>
+									<td>
+										<p> Lorem Ipsum is simply dummy text </p>
+									</td>
+									<td>
+										<strong class="cancel_order"><a href="#" data-toggle="modal" data-target="#exampleModal-212" data-whatever="@mdo">Cancel</a> </strong>
+									</td>
+								</tr>
+								<tr>
+									<td>#GT51232</td>
+									<td>11-2-2020</td>
+									<td>15-2-2020</td>
+									<td>Indrajeet</td>
+									<td>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+									</td>
+									<td> $522 </td>
+									<td>
+										<span class="star_table">
+											<i class="fa fa-star"></i>
+											5
+										</span>
+									</td>
+									<td>
+										<p> Lorem Ipsum is simply dummy text </p>
+									</td>
+									<td>
+										<strong class="Completed_order">Completed</strong>
+									</td>
+								</tr>
+								<tr>
+									<td>#GT51232</td>
+									<td>11-2-2020</td>
+									<td>15-2-2020</td>
+									<td>Indrajeet</td>
+									<td>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+									</td>
+									<td> $522 </td>
+									<td>
+										<span class="star_table">
+											<i class="fa fa-star"></i>
+											3
+										</span>
+									</td>
+									<td>
+										<p> Lorem Ipsum is simply dummy text </p>
+									</td>
+									<td>
+										<strong class="cancel_order"><a href="#" data-toggle="modal" data-target="#exampleModal-212" data-whatever="@mdo">Cancel</a> </strong>
+									</td>
+								</tr>
+								<tr>
+									<td>#GT51232</td>
+									<td>11-2-2020</td>
+									<td>15-2-2020</td>
+									<td>Indrajeet</td>
+									<td>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+									</td>
+									<td> $522 </td>
+									<td>
+										<span class="star_table">
+											<i class="fa fa-star"></i>
+											5
+										</span>
+									</td>
+									<td>
+										<p> Lorem Ipsum is simply dummy text </p>
+									</td>
+									<td>
+										<strong class="Completed_order">Completed</strong>
+									</td>
+								</tr>
+								<tr>
+									<td>#GT51232</td>
+									<td>11-2-2020</td>
+									<td>15-2-2020</td>
+									<td>Indrajeet</td>
+									<td>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+									</td>
+									<td> $522 </td>
+									<td>
+										<span class="star_table">
+											<i class="fa fa-star"></i>
+											3
+										</span>
+									</td>
+									<td>
+										<p> Lorem Ipsum is simply dummy text </p>
+									</td>
+									<td>
+										<strong class="cancel_order"><a href="#" data-toggle="modal" data-target="#exampleModal-212" data-whatever="@mdo">Cancel</a> </strong>
+									</td>
+								</tr>
+								<tr>
+									<td>#GT51232</td>
+									<td>11-2-2020</td>
+									<td>15-2-2020</td>
+									<td>Indrajeet</td>
+									<td>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+									</td>
+									<td> $522 </td>
+									<td>
+										<span class="star_table">
+											<i class="fa fa-star"></i>
+											5
+										</span>
+									</td>
+									<td>
+										<p> Lorem Ipsum is simply dummy text </p>
+									</td>
+									<td>
+										<strong class="Completed_order">Completed</strong>
+									</td>
+								</tr>
+								<tr>
+									<td>#GT51232</td>
+									<td>11-2-2020</td>
+									<td>15-2-2020</td>
+									<td>Indrajeet</td>
+									<td>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+									</td>
+									<td> $522 </td>
+									<td>
+										<span class="star_table">
+											<i class="fa fa-star"></i>
+											3
+										</span>
+									</td>
+									<td>
+										<p> Lorem Ipsum is simply dummy text </p>
+									</td>
+									<td>
+										<strong class="cancel_order"><a href="#" data-toggle="modal" data-target="#exampleModal-212" data-whatever="@mdo">Cancel</a> </strong>
+									</td>
+								</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div  class="col-md-3">
+				<div class="block_social_footer">
+					<h3 class="tit-main-footer">Follow Us</h3>
+					<a href="#"> <i class="fa fa-facebook"></i> </a>
+					<a href="#"> <i class="fa fa-twitter"></i> </a>
+					<a href="#"> <i class="fa fa-instagram"></i> </a>
+				</div>
+			</div>
+			<div  class="col-md-3">
+				<h3 class="tit-main-footer">Popular Assets</h3>
+				<div class="menu_footer">
+					<a href="#">Script & Codes</a>
+					<a href="#">app templates</a>
+					<a href="#">theme</a>
+					<a href="#">plugin</a>
+					<a href="#">graphics</a>
+				</div>
+			</div>
+			<div  class="col-md-3">
+				<h3 class="tit-main-footer">More Info</h3>
+				<div class="menu_footer">
+					<a href="#">Script & Codes</a>
+					<a href="#">app templates</a>
+					<a href="#">theme</a>
+					<a href="#">plugin</a>
+					<a href="#">graphics</a>
+				</div>
+			</div>
+			<div  class="col-md-3">
+				<h3 class="tit-main-footer">Help & Support</h3>
+				<div class="menu_footer">
+					<a href="#">Script & Codes</a>
+					<a href="#">app templates</a>
+					<a href="#">theme</a>
+					<a href="#">plugin</a>
+					<a href="#">graphics</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="copyright text-center">
+		Copyright @2020 ahmed.All Rights reserved
+	</div>
+
+</footer>
+
+
+
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-select.min.js"></script>
+
+<script src="js/owl.carousel.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/wow.js"></script>
+
+
+
+
+</body>
+</html>
